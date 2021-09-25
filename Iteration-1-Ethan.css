@@ -1,0 +1,22 @@
+.English-Ethan {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	background-color: lightcyan;
+}
+
+.Head-Title {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+		'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Word-Mult-Choice {
+	background-color: lightseagreen;
+}
+
+.Fill-In-Blank {
+	background-color: lightseagreen;
+}
+
+.Directions {
+	background-color: lightblue;
+}

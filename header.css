@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+.header_container {
+	margin: auto;
+	width: 50%;
+	border: 3px solid green;
+	padding: 10px;
+	text-align: center;
+	background-color: navajowhite;
+	font-family: 'Fredoka One';
+	font-size: larger;
+}
+
+.header_container img {
+	width: 100%;
+}
