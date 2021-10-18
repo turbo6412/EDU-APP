@@ -16,19 +16,19 @@
             <div class="geometry-section1">
                 <h3><label for="shape-select">Select any shape to display it!</label></h3>
 
-                <select name="shape" id="shape-select">
-                    <option value="">--Please choose an option--</option>
-                    <option value="dog">Circle</option>
-                    <option value="hamster">Rectangle</option>
-                    <option value="hamster">Triangle</option>
-                    <option value="parrot">Square</option>
-                    <option value="cat">Diamond</option>
-                    <option value="spider">Rhombus</option>
-                    <option value="goldfish">Octagon</option>
-                    <option value="goldfish">Hexagon</option>
-                    <option value="goldfish">Trapezoid</option>
+                <select id="shape-list" class="choose-shape-msg" name="shape" >
+                    <option value="https://i.ytimg.com/vi/Zwfhqd-EPRQ/maxresdefault.jpg">--Please choose an option--</option>
+                    <option value="https://previews.123rf.com/images/sandstormia/sandstormia1904/sandstormia190400008/123969437-vector-illustration-cute-geometric-figures-for-kids-red-shape-circle-isolated-on-white-background-wi.jpg">Circle</option>
+                    <option value="https://media.baamboozle.com/uploads/images/72781/1603228015_39344">Rectangle</option>
+                    <option value="https://i.pinimg.com/736x/ed/38/88/ed3888d22d5668c922ef0c672a348489.jpg">Triangle</option>
+                    <option value="https://www.belarabyapps.com/wp-content/uploads/2019/11/square-shape-flashcards.png">Square</option>
+                    <option value="https://www.awellspringofworksheets.com/wp-content/uploads/2016/03/plane-shape-diamond-color_premium-250x272.jpg">Diamond</option>
+                    <option value="http://2.bp.blogspot.com/_XuTQI-8Rm2M/TSMM2GsGKyI/AAAAAAAAF1s/y3bgD2iaqzA/s1600/rhombus.jpg">Rhombus</option>
+                    <option value="https://media.istockphoto.com/vectors/vector-illustration-cute-geometric-figures-for-kids-pink-shape-on-vector-id1141410745https://media.istockphoto.com/vectors/vector-illustration-cute-geometric-figures-for-kids-pink-shape-on-vector-id1141410745">Octagon</option>
+                    <option value="http://2.bp.blogspot.com/-U53p8wscTW4/VUmNDNWnZdI/AAAAAAAADr0/U4BWxZl0KQ4/s1600/Hexagon.png">Hexagon</option>
+                    <option value="https://www.worksheetsplanet.com/wp-content/uploads/2021/04/Trapezoid-shape-for-kids.jpg">Trapezoid</option>
                 </select>
-                <br><img src="https://i.ytimg.com/vi/Zwfhqd-EPRQ/maxresdefault.jpg" height="200" width="200">
+                <br><img id="shape-img-select" src="https://i.ytimg.com/vi/Zwfhqd-EPRQ/maxresdefault.jpg" height="400" width="400">
             </div>
 
             <hr>
@@ -38,12 +38,12 @@
                 <div class="shapes-question">
                     <div>
                         <img src="https://svg-clipart.com/svg/red/LuYJ3LT-red-circle-vector.svg" height="391" width="500"><br>
-                      <input type="radio" name="group1">
+                        <input id="CIRCLE-WRONG" type="radio" name="group1">
                       <label>A</label>
                     </div>
                     <div>
                         <img src="https://images.squarespace-cdn.com/content/v1/5581ba0de4b0488a17586c8d/1437146027310-HHMOZLJY7MFS9LEL34TA/pop-tarts2.gif?format=500w" height="400" width="400"><br>
-                      <input type="radio" name="group1">
+                        <input id="POPTART-WRONG" type="radio" name="group1">
                       <label>B</label>
                     </div>
                   </div>
@@ -51,14 +51,19 @@
                   <div class="shapes-question">
                     <div>
                         <img src="https://thumbs.dreamstime.com/z/funny-triangle-smiley-legs-eyes-showing-one-finger-up-caricature-color-sketch-funny-triangle-smiley-legs-eyes-151760245.jpg" height="391" width="500"><br>
-                      <input type="radio" name="group1">
+                        <input id="TRIANGLE-WRONG" type="radio" name="group1">
                       <label>C</label>
                     </div>
                     <div>
                         <img src="https://c.tenor.com/0j723DuabeIAAAAM/smiley-wink.gif"" height="400" width="400"><br>
-                      <input type="radio" name="group1">
+                        <input id="SQUARE-RIGHT" type="radio" name="group1">
                       <label>D</label>
                     </div>
+                  </div>
+                  <button class="square-submit" type="geometry-submit" onclick="squareErrorMessage()">Submit</button>
+                  <br>
+                  <div id="SQUARE-VALIDATE" style=
+                      "color:green; font-size:30px; font-weight:bold;">
                   </div>
             </div>
 
@@ -73,34 +78,49 @@
                     <br>
                     <img src="https://www.clipartkey.com/mpngs/m/20-200651_coins-clipart-quarter-25-47.png" height="200" width="200" >
                     <input type="text" id="quarter" name="quarter1" placeholder="Enter number of cents">
+                    <p><input type="button" value="Submit" placeholder="Enter number of cents" onclick="checkCents('CENT-VALIDATE1', 'quarter', 25)"></p>
+
+                    <div id="CENT-VALIDATE1" style=
+                    "color:rgb(149, 151, 16); font-size:30px; font-weight:bold;"></div>
                     <br>
 
                     <label for="dime">How many cents in a dime?</label>
                     <br>
                     <img src="https://m.media-amazon.com/images/I/51L05cpLWqL.jpg" height="200" width="200" >
                     <input type="text" id="dime" name="dime" placeholder="Enter number of cents">
+                    <p><input type="button" value="Submit" placeholder="Enter number of cents" onclick="checkCents('CENT-VALIDATE2', 'dime', 10)"></p>
+                    
+                    <div id="CENT-VALIDATE2" style=
+                    "color:rgb(149, 151, 16); font-size:30px; font-weight:bold;"></div>                    
                     <br>
 
                     <label for="nickel">How many cents in a nickel?</label>
                     <br>
                     <img src="https://www.usmint.gov/wordpress/wp-content/uploads/2020/12/2021-jefferson-nickel-uncirculated-obverse-philadelphia-768x768.jpg" height="200" width="200" >
                     <input type="text" id="nickel" name="nickel" placeholder="Enter number of cents">
+                    <p><input type="button" value="Submit" placeholder="Enter number of cents" onclick="checkCents('CENT-VALIDATE3', 'nickel', 5)"></p>
+                    
+                    <div id="CENT-VALIDATE3" style=
+                    "color:rgb(149, 151, 16); font-size:30px; font-weight:bold;"></div>                       
                     <br>                    
                     
                     <label for="penny">How many cents in a penny?</label>
                     <br>
                     <img src="https://www.usmint.gov/wordpress/wp-content/uploads/2020/12/2021-lincoln-penny-uncirculated-obverse-philadelphia-768x768.jpg" height="200" width="200" >
                     <input type="text" id="penny" name="penny" placeholder="Enter number of cents">
+                    <p><input type="button" value="Submit" placeholder="Enter number of cents" onclick="checkCents('CENT-VALIDATE4','penny', 1)"></p>
+                    
+                    <div id="CENT-VALIDATE4" style=
+                    "color:rgb(149, 151, 16); font-size:30px; font-weight:bold;"></div>                       
                     <br>
 
-                    <p><input type="button" value="Submit" placeholder="Enter number of cents"></p>
                   </form>
             </div>
         </div>
      
    
 
-    <script src="index.js"></script>
+        <script src="math__template_anthony.js"></script>
     
   </body>
 </html>

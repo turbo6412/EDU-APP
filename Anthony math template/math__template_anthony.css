@@ -8,13 +8,17 @@
 	text-align: center;
 	background-color: navajowhite;
 	font-family: 'Schoolbell';
-	font-size: larger;
+	font-size: 35px;
 }
 .geometry-section1 {
 	position: relative;
 	background-size: contain;
 	padding: 1em;
 	height: 5%;
+}
+
+.choose-shape-msg {
+	font-size: 23px;
 }
 
 .geometry-section-header {
@@ -54,6 +58,10 @@ input[type='radio'] {
 	height: 20px;
 }
 
+.money-form input[type='text'] {
+	font-size: medium;
+}
+
 .shapes-question {
 	display: flex;
 	margin-top: 90px;
@@ -65,4 +73,10 @@ input[type='radio'] {
 }
 .shapes-question > div:not(:last-child) {
 	margin-right: 12px;
+}
+
+.square-submit {
+	font-size: 30px;
+	border-radius: 12px;
+	background-color: #81ee84;
 }
