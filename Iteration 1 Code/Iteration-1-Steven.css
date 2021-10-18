@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+.steven-math {
+	font-family: 'Shadows Into Light';
+	margin: 0;
+}
+
+.acorn_tree {
+	font-size: 1.65rem;
+	text-align: center;
+	font-weight: bold;
+	color: #eeeeff;
+}
+
+.bee_flowers {
+	font-size: 1.65rem;
+	text-align: center;
+	font-weight: bold;
+	color: #eeeeff;
+}
+
+.acorn_question1 {
+	padding: 1.5em 0 1em 0;
+}
+
+.bee_question1 {
+	padding: 1.5em 0 1em 0;
+}
+
+.bee_question3 {
+	padding: 1.5em 0 1em 0;
+}
+
+input[type='button'] {
+	border: none;
+	border-radius: 0.5rem;
+	width: 10em;
+	height: 1.5rem;
+	font-weight: bold;
+	font-size: 1.2rem;
+	cursor: pointer;
+}
+
+input[type='button']:hover {
+	background-color: gray;
+}
+
+input[type='radio'] {
+	width: 20px;
+	height: 20px;
+}
