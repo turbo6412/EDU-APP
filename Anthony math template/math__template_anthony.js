@@ -1,6 +1,4 @@
-
 function squareErrorMessage() { 
-    console.log("Hello"); 
     if(document.getElementById('CIRCLE-WRONG').checked) {
         document.getElementById("SQUARE-VALIDATE").innerHTML
             = "Incorrect! You selected circle, try again!";
@@ -29,7 +27,8 @@ function setShapePic() {
     img.src = this.value;
     return false;
 }
-document.getElementById("shape-list").onchange = setShapePic;
+// call setShapePic when user selects anything in list/dropdown
+newPic = document.getElementById("shape-list").onchange = setShapePic;
 
 function checkCents(msgid, coin, correctCent) {
     var cent = document.getElementById(coin).value
@@ -43,3 +42,9 @@ function checkCents(msgid, coin, correctCent) {
     }
 
 }
+
+module.exports = {
+    squareErrorMessage,
+    setShapePic,
+    checkCents
+ }
