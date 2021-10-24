@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required Meta Tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="css/main.css">
+    <title>EduApp</title>
+
+    <!-- Required JS Files-->
+    <script src="script.js"></script>
+</head>
+
+<body class="English-Ethan">
+    <h1 class="Head-Title">English Section</h1>
+    <form name="WordMultChoice" class="WordMultChoice" id="WordMultChoice">
+        <div class="Question">
+            <p>1. Which one of the words listed below is a noun?</p>
+            <p><input type="radio" name="question1" value="Crying">Crying</p>
+            <p><input type="radio" name="question1" value="Sweet">Sweet</p>
+            <p><input type="radio" name="question1" value="WashingMachine">Washing Machine</p>
+            <input type="button" class="Submission" name="" value="Submit" onclick="checkQuestion('question1')">
+        </div>
+        <div class="Question">
+            <p>2. Which one of the words listed below is an adjective?</p>
+            <p><input type="radio" name="question2" value="GeorgeWashington">George Washington</p>
+            <p><input type="radio" name="question2" value="Sour">Sour</p>
+            <p><input type="radio" name="question2" value="Dresser">Dresser</p>
+            <input type="button" class="Submission" name="" value="Submit" onclick="checkQuestion('question2')">
+        </div>
+    </form>
+    <p class="Directions">For the following questions, refer to the image below and make choose the best choice!</p>
+    <form name="ImageQuestion" class="ImageQuestion" value="ImageQuestion">
+        <img src="https://simplyhomeinc.ca/wp-content/uploads/2019/01/B-photo49701209.jpg" alt="interactiveImage" width="500" height="300" class="center">
+        <div class="Question">
+            <p>3. What is Sasha hiding behind of?</p>
+            <p><input type="radio" name="question3" value="Bed">Bed</p>
+            <p><input type="radio" name="question3" value="Dresser">Dresser</p>
+            <p><input type="radio" name="question3" value="Blanket">Blanket</p>
+            <p><input type="radio" name="question3" value="Curtains">Curtains</p>
+            <input type="button" class="Submission" name="" value="Submit" onclick="checkQuestion('question3')">
+        </div>
+        <div class="Question">
+            <p>4. What color is the clothing dresser?</p>
+            <p><input type="radio" name="question4" value="Pink">Pink</p>
+            <p><input type="radio" name="question4" value="Blue">Blue</p>
+            <p><input type="radio" name="question4" value="Yellow">Yellow</p>
+            <p><input type="radio" name="question4" value="Red">Red</p>
+            <input type="button" class="Submission" name="" value="Submit" onclick="checkQuestion('question4')">
+        </div>
+    </form>
+    <p class="Directions">For the following questions, choose the word that best fits the sentence.</p>
+    <form name="FillInTheBlank" class="FillInTheBlank" value="FillInTheBlank">
+        <div class="Question">
+            <p>5. Bob's stomach kept making noise because he is so _____!</p>
+            <p><input type="radio" name="question5" value="Angry">Angry</p>
+            <p><input type="radio" name="question5" value="Happy">Happy</p>
+            <p><input type="radio" name="question5" value="Dramatic">Dramatic</p>
+            <p><input type="radio" name="question5" value="Hungry">Hungry</p>
+            <input type="button" class="Submission" name="" value="Submit" onclick="checkQuestion('question5')">
+        </div>
+        <div class="Question">
+            <p>6. Jenny was so ______ because she got her braces off!</p>
+            <p><input type="radio" name="question6" value="Angry">Angry</p>
+            <p><input type="radio" name="question6" value="Sad">Sad</p>
+            <p><input type="radio" name="question6" value="Tired">Tired</p>
+            <p><input type="radio" name="question6" value="Happy">Happy</p>
+            <input type="button" class="Submission" name="" value="Submit" onclick="checkQuestion('question6')">
+        </div>
+    </form>
+</body>
+
+</html>
