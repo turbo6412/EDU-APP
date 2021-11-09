@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required Meta Tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="css/main.css">
+    <title>English Reading Comprehension</title>
+
+    <!-- Required JS Files-->
+    <script src="script.js"></script>
+</head>
+
+<body class="English">
+    <h1 class="Head-Title">English Reading Comprehension</h1>
+    <iframe src="https://drive.google.com/file/d/1usHHbP7-_QgQLP2TK4y93AD-1MpXhSzp/preview" width="640" height="480" allow="autoplay"></iframe>
+    </iframe>
+    <form name="WordMultChoice" class="WordMultChoice" id="WordMultChoice">
+        <div class="Question">
+            <p>1. How does Jessica feel when she sees the new riders playing with Piper?</p>
+            <p><input type="radio" name="question1" value="Jealous">Jealous</p>
+            <p><input type="radio" name="question1" value="Excited">Excited</p>
+            <p><input type="radio" name="question1" value="Confused">Confused</p>
+            <p><input type="radio" name="question1" value="Afraid">Afraid</p>
+            <input type="button" class="Submission" name="" value="Submit" onclick="checkQuestion('question1')">
+        </div>
+        <div class="Question">
+            <p>2. What activity does Jessica like to do at horse camp?</p>
+            <p><input type="radio" name="question2" value="Q1">The obstacle course</p>
+            <p><input type="radio" name="question2" value="Q2">Cantering in the fields</p>
+            <p><input type="radio" name="question2" value="Q3">Riding on the trails</p>
+            <p><input type="radio" name="question2" value="Q4">All of the above</p>
+            <input type="button" class="Submission" name="" value="Submit" onclick="checkQuestion('question2')">
+        </div>
+        <div class="Question">
+            <p>3. Why does Jessica feed Harley an apple?</p>
+            <p><input type="radio" name="question3" value="Q1">She has extra apples and needs to get rid of them.</p>
+            <p><input type="radio" name="question3" value="Q2">She wants Harley to be less afraid of her.</p>
+            <p><input type="radio" name="question4" value="Q3">Harley is very hungry and needs food.</p>
+            <p><input type="radio" name="question5" value="Q4">Rose tells her to take the apple to Harley.</p>
+            <input type="button" class="Submission" name="" value="Submit" onclick="checkQuestion('question3')">
+        </div>
+    </form>
+    
+    <form name="FillInTheBlank" class="FillInTheBlank" value="FillInTheBlank">
+        <div class="Question">
+            <p>4. Write down 1 of the 3 things you can do to gain an animal’s trust.</p>
+            <input id = "textbox" type = "text" name = "question4">
+            <input type="button" class="Submission" name="" value="Submit" onclick="checkQuestion('question4')">
+        </div>
+    </form>
+</body>
+
+</html>

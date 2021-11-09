@@ -1,0 +1,108 @@
+.Pizza_Q1 {
+	position: relative;
+	background-image: linear-gradient(
+			rgba(255, 255, 255, 0.2),
+			rgba(255, 255, 255, 0.3)
+		),
+		url('https://s18670.pcdn.co/wp-content/uploads/Zoom-Background-Classroom-800x456.png');
+	background-size: cover;
+	font-family: 'Indie Flower', cursive;
+}
+.Pizza_Q2 {
+	background-image: linear-gradient(
+			rgba(255, 255, 255, 0.3),
+			rgba(255, 255, 255, 0.4)
+		),
+		url('https://thumbs.dreamstime.com/b/cute-cartoon-pizza-seamless-pattern-background-illustration-vector-94221964.jpg');
+	background-size: 10%;
+}
+.Pizza_Q3 {
+	background-image: linear-gradient(
+			rgba(255, 255, 255, 0.4),
+			rgba(255, 255, 255, 0.5)
+		),
+		url('https://wallpaperaccess.com/full/844722.jpg');
+	background-size: 20%;
+}
+.pizza_choice {
+	padding: 7px;
+}
+.Pizza_Q1 label {
+	display: block;
+	text-align: center;
+}
+.Pizza_Q1 label input[type='radio'] {
+	margin: 0 auto;
+}
+.Q3_input {
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+	font-size: 130%;
+	font-family: 'Press Start 2P', cursive;
+}
+.pizza {
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+	font-size: 500%;
+	font-family: 'Indie Flower', cursive;
+	color: white;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+	padding: 10px;
+}
+.multiple-pizza {
+	font-size: 150%;
+	font-family: 'Press Start 2P', cursive;
+	background-color: rgba(255, 230, 255, 0.6);
+}
+
+.Pizza_Q2 input[type='time'] {
+	display: block;
+	margin: 0 auto;
+}
+.pizza-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 20%;
+	width: 20%;
+}
+h2 > span {
+	background: #fd9597;
+	color: #ffffff;
+	font-family: 'Fugaz One';
+	text-shadow: #44090d 1px 1px, #44090d -0px 0px, #44090d -1px 1px,
+		#44090d -2px 2px, #44090d -3px 3px, #44090d -4px 4px;
+}
+.button {
+	background-color: #4caf50;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	margin: 0 auto;
+	font-size: 16px;
+}
+.correct {
+	font-size: 200%;
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+	color: lightgreen;
+	text-shadow: rgb(0, 68, 0) 1px 1px, rgb(0, 68, 0) -0px 0px,
+		rgb(0, 68, 0) -1px 1px, rgb(0, 68, 0) -2px 2px, rgb(0, 68, 0) -3px 3px,
+		rgb(0, 68, 0) -4px 4px;
+}
+.incorrect {
+	font-size: 200%;
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+	color: lightpink;
+	text-shadow: rgb(80, 0, 0) 1px 1px, rgb(80, 0, 0) -0px 0px,
+		rgb(80, 0, 0) -1px 1px, rgb(80, 0, 0) -2px 2px, rgb(80, 0, 0) -3px 3px,
+		rgb(80, 0, 0) -4px 4px;
+}
