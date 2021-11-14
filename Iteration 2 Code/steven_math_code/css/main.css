@@ -6,21 +6,38 @@
 }
 
 .acorn_tree {
-	font-size: 1.65rem;
+	font-size: 2em;
 	text-align: center;
 	font-weight: bold;
-	color: #eeeeff;
+	color: #000000;
+	text-shadow: 3px 3px 3px #ffffff;
 	width: 1000px;
 	margin: auto;
+	background-image: url('https://i.imgur.com/JMZPh4p.jpg');
+	padding-bottom: 1em;
 }
 
 .bee_flowers {
-	font-size: 1.65rem;
+	font-size: 2em;
 	text-align: center;
 	font-weight: bold;
-	color: #eeeeff;
+	color: #000000;
+	text-shadow: 3px 3px 3px #ffffff;
 	width: 1000px;
 	margin: auto;
+	background-image: url('https://i.imgur.com/k0UqasJ.jpg');
+}
+
+.water_cup {
+	font-size: 2em;
+	text-align: center;
+	font-weight: bold;
+	color: #000000;
+	text-shadow: 3px 3px 3px #ffffff;
+	width: 1000px;
+	margin: auto;
+	background-image: url('https://i.imgur.com/GBI2eZ1.jpg');
+	padding-bottom: 1em;
 }
 
 .acorn_question1 {
@@ -35,8 +52,8 @@
 	padding: 1.5em 0 1em 0;
 }
 
-.btn:hover {
-	background-color: gray;
+.water_question2 {
+	padding: 1.5em 0 1em 0;
 }
 
 .button_list {
@@ -64,4 +81,13 @@ input[type='button']:hover {
 input[type='radio'] {
 	width: 20px;
 	height: 20px;
+}
+
+input[type='text'] {
+	height: 30px;
+	font-size: 14pt;
+	width: 280px;
+	text-align: center;
+	margin: 20px 0 20px 0;
+	border-radius: 10px;
 }

@@ -11,6 +11,7 @@
 
     <!-- Required JS Files-->
     <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 </head>
 
 <body class="English-Ethan">
@@ -21,14 +22,14 @@
             <p><input type="radio" name="question1" value="Crying">Crying</p>
             <p><input type="radio" name="question1" value="Sweet">Sweet</p>
             <p><input type="radio" name="question1" value="WashingMachine">Washing Machine</p>
-            <input type="button" class="Submission" name="" value="Submit" onclick="checkQuestion('question1')">
+            <input type="button" class="Submission" name="" value="Submit" onclick="checkQuestionMC('question1')">
         </div>
         <div class="Question">
             <p>2. Which one of the words listed below is an adjective?</p>
             <p><input type="radio" name="question2" value="GeorgeWashington">George Washington</p>
             <p><input type="radio" name="question2" value="Sour">Sour</p>
             <p><input type="radio" name="question2" value="Dresser">Dresser</p>
-            <input type="button" class="Submission" name="" value="Submit" onclick="checkQuestion('question2')">
+            <input type="button" class="Submission" name="" value="Submit" onclick="checkQuestionMC('question2')">
         </div>
     </form>
     <p class="Directions">For the following questions, refer to the image below and make choose the best choice!</p>
@@ -40,7 +41,7 @@
             <p><input type="radio" name="question3" value="Dresser">Dresser</p>
             <p><input type="radio" name="question3" value="Blanket">Blanket</p>
             <p><input type="radio" name="question3" value="Curtains">Curtains</p>
-            <input type="button" class="Submission" name="" value="Submit" onclick="checkQuestion('question3')">
+            <input type="button" class="Submission" name="" value="Submit" onclick="checkQuestionMC('question3')">
         </div>
         <div class="Question">
             <p>4. What color is the clothing dresser?</p>
@@ -48,7 +49,7 @@
             <p><input type="radio" name="question4" value="Blue">Blue</p>
             <p><input type="radio" name="question4" value="Yellow">Yellow</p>
             <p><input type="radio" name="question4" value="Red">Red</p>
-            <input type="button" class="Submission" name="" value="Submit" onclick="checkQuestion('question4')">
+            <input type="button" class="Submission" name="" value="Submit" onclick="checkQuestionMC('question4')">
         </div>
     </form>
     <p class="Directions">For the following questions, choose the word that best fits the sentence.</p>
@@ -59,7 +60,7 @@
             <p><input type="radio" name="question5" value="Happy">Happy</p>
             <p><input type="radio" name="question5" value="Dramatic">Dramatic</p>
             <p><input type="radio" name="question5" value="Hungry">Hungry</p>
-            <input type="button" class="Submission" name="" value="Submit" onclick="checkQuestion('question5')">
+            <input type="button" class="Submission" name="" value="Submit" onclick="checkQuestionMC('question5')">
         </div>
         <div class="Question">
             <p>6. Jenny was so ______ because she got her braces off!</p>
@@ -67,7 +68,28 @@
             <p><input type="radio" name="question6" value="Sad">Sad</p>
             <p><input type="radio" name="question6" value="Tired">Tired</p>
             <p><input type="radio" name="question6" value="Happy">Happy</p>
-            <input type="button" class="Submission" name="" value="Submit" onclick="checkQuestion('question6')">
+            <input type="button" class="Submission" name="" value="Submit" onclick="checkQuestionMC('question6')">
+        </div>
+    </form>
+    <p class="Directions">For the following question, read the following story and fill in the following answers. (Make sure you capitalize your answer!)</p>
+    <form name="FreeResponse" class="FreeResponse" value="FreeResponse">
+        <div class="Container">
+            <img class="PieGif" src="https://c.tenor.com/ognz8SNu__QAAAAj/piffle-pumpkin-pie.gif" style="height: 100px;" alt="gif1">
+            <p class="Passage">
+                Johnny wakes up in the morning to go to the bakery to get pastries for his family. His family always asks for a set of pastries, however Johnny is going in to buy a pie! When he gets there he chooses his favorite flavor, Pumpkin! But, he also gets his
+                sister's favorite flavor, apple pie!
+            </p>
+            <img class="PieGif" src="https://c.tenor.com/ognz8SNu__QAAAAj/piffle-pumpkin-pie.gif" style="height: 100px;" alt="gif1">
+        </div>
+        <div class="Question">
+            <p>7. What kind of pie flavor does Johnny want to get from the bakery?</p>
+            <input type="text" class="textBar" id="question7" placeholder="Enter your answer over here!">
+            <input type="button" class="Submission" name="" value="Submit" onclick="checkQuestionFR('question7')">
+        </div>
+        <div class="Question">
+            <p>8. Besides what Johnny wanted, Johnny got his sister a(n) _____ pie!</p>
+            <input type="text" class="textBar" id="question8" placeholder="Enter your answer over here!">
+            <input type="button" class="Submission" name="" value="Submit" onclick="checkQuestionFR('question8')">
         </div>
     </form>
 </body>

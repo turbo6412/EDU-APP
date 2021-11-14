@@ -1,7 +1,7 @@
 .English {
 	font-family: Arial, Helvetica, sans-serif;
 	margin: 0;
-	background-color: lightcyan;
+	color: lightblue;
 	padding-top: 50px;
 	padding-right: 50px;
 	padding-bottom: 50px;
@@ -14,6 +14,7 @@
 		'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	background-color: rgb(156, 243, 243);
 	border-radius: 15px;
+	color: black;
 }
 
 .WordMultChoice {
@@ -21,6 +22,7 @@
 	text-align: initial;
 	border-radius: 8px;
 	background-color: lightseagreen;
+	color: black;
 }
 
 .FillInTheBlank {
@@ -28,12 +30,22 @@
 	text-align: initial;
 	border-radius: 8px;
 	background-color: lightseagreen;
+	color: black;
+}
+
+.Reset {
+	overflow: auto;
+	text-align: initial;
+	border-radius: 8px;
+	background-color: lightseagreen;
+	color: black;
 }
 
 .ImageQuestion {
 	overflow: auto;
 	background-color: lightseagreen;
 	border-radius: 8px;
+	color: black;
 }
 
 .Directions {
@@ -47,6 +59,11 @@
 }
 
 .Question {
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.Question_Reset {
 	margin-left: 10px;
 	margin-top: 10px;
 	margin-bottom: 10px;

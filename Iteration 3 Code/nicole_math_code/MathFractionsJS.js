@@ -25,16 +25,16 @@ function checkButton1()
 }  
 function checkButton2()
 {
-   document.getElementById("Q2_Correct").innerHTML="";
+  document.getElementById("Q2_Correct").innerHTML="";
   document.getElementById("Q2_Incorrect").innerHTML="";  
   var x = document.getElementById("Q2Time").value;
   if (x == "19:25")
   {
-    document.getElementById("Q2_Correct").innerHTML = "Correct! The pizza would arrive at 7:25PM."
+    document.getElementById("Q2_Correct").innerHTML = "Correct! The pizza would arrive at 7:25PM.";
   }
   else
   {
-    document.getElementById("Q2_Incorrect").innerHTML = "Incorrect! Remember there are 60 minutes in an hour, and you order it at 6:00PM."
+    document.getElementById("Q2_Incorrect").innerHTML = "Incorrect! Remember there are 60 minutes in an hour, and you order it at 6:00PM.";
   }
 }
 function checkButton3()
@@ -73,5 +73,27 @@ function checkButton3()
   if(p!="4")
   {
     document.getElementById("Q3_IncorrectPep").innerHTML = "Incorrect number of pepporoni.";
+  }
+}
+function checkButton4()
+{
+  document.getElementById("Q1-5_Correct").innerHTML="";
+  document.getElementById("Q1-5_Incorrect").innerHTML=""; 
+
+  var checkboxes = document.getElementsByName("PQ1-5");
+  if (checkboxes[2].checked && checkboxes[4].checked)
+  {
+    if(checkboxes[0].checked || checkboxes[1].checked || checkboxes[3].checked)
+    {
+      document.getElementById("Q1-5_Incorrect").innerHTML = "Incorrect!";
+    }
+    else
+    {
+      document.getElementById("Q1-5_Correct").innerHTML = "Correct!";
+    }
+  }
+  else
+  {
+    document.getElementById("Q1-5_Incorrect").innerHTML = "Incorrect";
   }
 }

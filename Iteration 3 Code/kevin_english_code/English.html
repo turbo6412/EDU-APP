@@ -6,14 +6,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="./style.css">
     <title>English Reading Comprehension</title>
 
     <!-- Required JS Files-->
     <script src="script.js"></script>
 </head>
 
-<body class="English">
+
+<body class="English", style="background-color:lightblue;">
     <h1 class="Head-Title">English Reading Comprehension</h1>
     <iframe src="https://drive.google.com/file/d/1usHHbP7-_QgQLP2TK4y93AD-1MpXhSzp/preview" width="640" height="480" allow="autoplay"></iframe>
     </iframe>
@@ -25,6 +26,8 @@
             <p><input type="radio" name="question1" value="Confused">Confused</p>
             <p><input type="radio" name="question1" value="Afraid">Afraid</p>
             <input type="button" class="Submission" name="" value="Submit" onclick="checkQuestion('question1')">
+            <input type="hidden" id="answer">
+            <input type='reset'>
         </div>
         <div class="Question">
             <p>2. What activity does Jessica like to do at horse camp?</p>
@@ -33,6 +36,8 @@
             <p><input type="radio" name="question2" value="Q3">Riding on the trails</p>
             <p><input type="radio" name="question2" value="Q4">All of the above</p>
             <input type="button" class="Submission" name="" value="Submit" onclick="checkQuestion('question2')">
+            <input type="hidden" id="answer">
+            <input type='reset'>
         </div>
         <div class="Question">
             <p>3. Why does Jessica feed Harley an apple?</p>
@@ -41,6 +46,8 @@
             <p><input type="radio" name="question4" value="Q3">Harley is very hungry and needs food.</p>
             <p><input type="radio" name="question5" value="Q4">Rose tells her to take the apple to Harley.</p>
             <input type="button" class="Submission" name="" value="Submit" onclick="checkQuestion('question3')">
+            <input type="hidden" id="answer">
+            <input type='reset'>
         </div>
     </form>
     
@@ -49,8 +56,25 @@
             <p>4. Write down 1 of the 3 things you can do to gain an animal’s trust.</p>
             <input id = "textbox" type = "text" name = "question4">
             <input type="button" class="Submission" name="" value="Submit" onclick="checkQuestion('question4')">
+            <input type="hidden" id="answer">
+            <input type='reset'>
         </div>
     </form>
+
+    <form name = "Reset" class="Reset">
+        <div class="Question_Reset">
+          <button id='fullReset'>Full Reset</button>
+        </div>
+    </form>
+   
+
+    <script>
+    var fullReset = document.getElementById('fullReset');
+
+    fullReset.addEventListener('click', function(e) {
+      location.reload();
+    }, false);
+  </script>
 </body>
 
 </html>
