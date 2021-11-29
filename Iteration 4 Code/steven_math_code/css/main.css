@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+.steven-math {
+	font-family: 'Shadows Into Light';
+	margin: auto;
+}
+
+.acorn_tree {
+	font-size: 2em;
+	text-align: center;
+	font-weight: bold;
+	color: #000000;
+	text-shadow: 3px 3px 3px #ffffff;
+	width: 1000px;
+	margin: auto;
+	background-image: url('https://i.imgur.com/JMZPh4p.jpg');
+	padding-bottom: 1em;
+}
+
+.bee_flowers {
+	font-size: 2em;
+	text-align: center;
+	font-weight: bold;
+	color: #000000;
+	text-shadow: 3px 3px 3px #ffffff;
+	width: 1000px;
+	margin: auto;
+	background-image: url('https://i.imgur.com/k0UqasJ.jpg');
+}
+
+.water_cup {
+	font-size: 2em;
+	text-align: center;
+	font-weight: bold;
+	color: #000000;
+	text-shadow: 3px 3px 3px #ffffff;
+	width: 1000px;
+	margin: auto;
+	background-image: url('https://i.imgur.com/GBI2eZ1.jpg');
+	padding-bottom: 1em;
+}
+
+.acorn_question1 {
+	padding: 1.5em 0 1em 0;
+}
+
+.bee_question1 {
+	padding: 1.5em 0 1em 0;
+}
+
+.bee_question3 {
+	padding: 1.5em 0 1em 0;
+}
+
+.water_question2 {
+	padding: 1.5em 0 1em 0;
+}
+
+.button_list {
+	border-radius: 1em;
+	border-style: solid;
+	width: 500px;
+	margin: auto;
+}
+
+input[type='button'] {
+	border: none;
+	border-radius: 0.5rem;
+	width: 15em;
+	height: 2em;
+	margin: 0 0 1.5rem 0;
+	font-weight: bold;
+	font-size: 1.2rem;
+	cursor: pointer;
+}
+
+input[type='button']:hover {
+	background-color: gray;
+}
+
+input[type='radio'] {
+	width: 20px;
+	height: 20px;
+}
+
+input[type='text'] {
+	height: 30px;
+	font-size: 14pt;
+	width: 280px;
+	text-align: center;
+	margin: 20px 0 20px 0;
+	border-radius: 10px;
+}

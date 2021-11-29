@@ -1,0 +1,86 @@
+.English-Ethan {
+	font-family: Comic Sans MS, Arial, Helvetica, sans-serif;
+	margin: 0;
+	background-image: url(https://media.istockphoto.com/vectors/english-school-for-children-learn-language-education-vector-kids-vector-id1205595373);
+	padding-top: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	padding-left: 50px;
+}
+
+.Head-Title {
+	text-align: center;
+	font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+	background-color: rgb(156, 243, 243);
+	border-radius: 15px;
+}
+
+.WordMultChoice {
+	overflow: auto;
+	text-align: initial;
+	border-radius: 8px;
+	background-color: lightseagreen;
+}
+
+.FillInTheBlank {
+	overflow: auto;
+	text-align: initial;
+	border-radius: 8px;
+	background-color: lightseagreen;
+}
+
+.ImageQuestion {
+	overflow: auto;
+	background-color: lightseagreen;
+	border-radius: 8px;
+}
+
+.FreeResponse {
+	overflow: auto;
+	text-align: initial;
+	border-radius: 8px;
+	background-color: lightseagreen;
+}
+
+.Directions {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: gray;
+	border-radius: 8px;
+	text-align: center;
+}
+
+.Submission {
+	border-radius: 20px;
+}
+
+.Question {
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.center {
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.Passage {
+	text-align: center;
+	height: 200 px;
+	background-color: whitesmoke;
+	border-radius: 8px;
+	align-self: center;
+}
+
+.Container {
+	display: flex;
+}
+
+.textBar {
+	border-radius: 8px;
+}

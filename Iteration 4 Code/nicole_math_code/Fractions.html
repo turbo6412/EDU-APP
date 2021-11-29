@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="pizzatime.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="fractions_learning">
+      <h1 class="fraction_Title">Introduction to Math!</h1>
+      <h2 class="intro_para"> 
+      Welcome to our math segment! Here we are going to learn about using math ideas in real life. Math can be useful outside the classroom,
+      and you will likely encounter in your everday life. Below we will quiz you on your ability to use your math skills in the real world.
+      But first, we will be reviewing some key concepts. </h2>
+      <h2 class="NL_lesson"><img class="numberLine-img" src="https://i.imgur.com/kR0nqC5.jpg"/>
+       Basic counting skills are very important! Be sure you are familiar with your basic numberline before
+      continuing! </h2>
+      <h2 class="add_lesson"> <img class="add_Table" src="https://i.imgur.com/dAOtNSq.png"/>In your day to day life you will encounter addition in many places! To the right is an addition chart. If
+      you choose a number on the top and a number on the left, the table tells you the total when those numbers are added together.
+      Just see where the top number's column, and left side number's row intersect, and there is the answer!</h2>
+      <h2 class="F_lesson"> <img class="fraction_chart" src="https://i.imgur.com/PszIrc9.png"> You may not think fractions would
+      ever show up in life outside math class, but you'd be mistaken! Fractions help us understand how to divide up a whole thing
+      easily and fairly. Make sure you are familiar with how to write and read fractions.</h2>
+      <br>
+    </div>
+    <div class="Pizza_Q1">
+      <h1 class="pizza">Pizza Fraction Activity</h1>
+      <img class="pizza-img" src="https://i.imgur.com/SNzKOhp.png">
+  
+      <h2 style="text-align:center; font-size: 200%;"><span>1. Which of these pizza slices is 1/2?</span></h2><br>
+      <form class="multiple-pizza">
+        <input type="radio" id="Q1A" name="Q1Choice"> A 
+        <img class="pizza_choice" src="https://i.imgur.com/sV9pcbV.png" width="300" height="200">  
+        <input type="radio" id="Q1B" name="Q1Choice"> B
+          <img class="pizza_choice" src="https://i.imgur.com/vg0eqei.png" width="300" height="200"> 
+        <input type="radio" id="Q1C" name="Q1Choice"> C  
+          <img class="pizza_choice" src="https://i.imgur.com/Su5c7rG.png" width="300" height="200">
+        <br> <br>
+        <label for="Q1D">
+        <input type="radio" id ="Q1D" name="Q1Choice"> None of These 
+        </label><br>
+      </form>
+      <button class = "button" onclick="checkButton1()">Submit </button> 
+      <h3 class="correct" id="Q1_Correct"> </h3>
+      <h3 class="incorrect" id="Q1_Incorrect"> </h3> 
+      <br>
+  
+    </div>
+    <div class="Pizza_Q1-5">
+      <h2 style="text-align:center; font-size: 200%;"><span>2. You cut your pizza into 8 slices. You then eat two of the slices;
+      they're delicious! </span></h2>
+      <img class="eating_img" src="https://i.imgur.com/hgID85l.png"/>
+      <br>
+      <img class="eating_img" src="https://data.whicdn.com/images/316942375/original.gif"/>
+      <h2 style="text-align:center; font-size: 200%;"><span>This is your pizza now. 
+      Which of the fractions below represents how much pizza you have left? Select all that apply.</span></h2>
+      <img class="eating_img" src="https://i.imgur.com/YzPDjfY.png"/>
+      <br>
+      <form>
+        <input type="checkbox" id="2/8" name="PQ1-5" value="2/8">
+        <label class="checkLabel" for="2/8"> 2/8 </label>
+        <input type="checkbox" id="7/8" name="PQ1-5" value="7/8">
+        <label class="checkLabel" for="2/8"> 7/8 </label>
+        <input type="checkbox" id="6/8" name="PQ1-5" value="6/8">
+        <label class="checkLabel" for="2/8"> 6/8 </label>
+        <input type="checkbox" id="1/4" name="PQ1-5" value="1/4">
+        <label class="checkLabel" for="2/8"> 1/4 </label>
+        <input type="checkbox" id="3/4" name="PQ1-5" value="3/4">
+        <label class="checkLabel" for="2/8"> 3/4 </label>
+      </form>
+      <br>
+      <button class = "button" onclick="checkButton4()">Submit </button> 
+      <h3 class="correct" id="Q1-5_Correct"> </h3>
+      <h3 class="incorrect" id="Q1-5_Incorrect"> </h3> 
+    </div>
+    <div class="Pizza_Q2">
+      <h2 style="text-align:center; font-size: 200%;"><span>3. If you order a pizza at 
+        6:00pm and it takes 20 minutes to prep the pizza, 35 minutes to cook, and 30 minutes to deliver, when will your
+        pizza arrive?</span></h2>
+      <img style="display: block; margin:0 auto; width: 20%; height: 20%" 
+        src="https://i.imgur.com/zJcFsBO.png">
+      <h4 style="text-align:center; font-size: 180%"> Enter the time down below. </h4>
+      <form>
+        <input type="time" id="Q2Time" value="00:00:00">
+      </form>
+      <br>
+      <button class = "button" onclick="checkButton2()">Submit </button> 
+      <h3 class="correct" id="Q2_Correct">  </h3>
+      <h3 class="incorrect" id="Q2_Incorrect"> </h3>  
+  
+    </div>
+  
+    <div class="Pizza_Q3">
+      <h2 style="text-align:center; font-size: 200%;"><span>3. How many of each topping are on the pizza?</span></h2>
+      <img style="display: block; margin:0 auto; width: 20%; height: 20%" src="https://i.imgur.com/xhvMzng.png">
+      <form>
+        <label class="Q3_input"> Mushrooms: </label> <h3 class="incorrect" id="Q3_IncorrectMush"> </h3>  
+        <input type="number" id="Q3M" style="display: block; margin:0 auto;" value="0">
+        <label class="Q3_input"> Tomatoes: </label> <h3 class="incorrect" id="Q3_IncorrectTom"> </h3> 
+        <input type="number" id="Q3T" style="display: block; margin:0 auto;" value="0"> 
+        <label class="Q3_input"> Green Bell Peppers:</label> <h3 class="incorrect" id="Q3_IncorrectGBP"> </h3> 
+        <input type="number" id="Q3G" style="display: block; margin:0 auto;" value="0">
+        <label class="Q3_input"> Olives: </label> <h3 class="incorrect" id="Q3_IncorrectOlive"> </h3> 
+        <input type="number" id="Q3O" style="display: block; margin:0 auto;" value="0">
+        <label class="Q3_input"> Pepporoni: </label> <h3 class="incorrect" id="Q3_IncorrectPep"> </h3> 
+        <input type="number" id="Q3P" style="display: block; margin:0 auto;" value="0">
+      </form>
+      <br>
+      <button class = "button" onclick="checkButton3()">Submit </button> 
+      <h3 class="correct" id="Q3_Correct"> </h3>
+      <h3 class="incorrect" id="Q3_Incorrect"> </h3>  
+    </div>
+    <script src="MathFractionsJS.js"></script>
+  </body>
+</html>
