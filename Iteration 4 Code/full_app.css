@@ -5,6 +5,9 @@
 	width: 50%;
 }
 
+#logo-home {
+	height: auto;
+}
 /* First the Grid */
 .gallery-grid {
 	display: grid;
@@ -41,5 +44,13 @@
 }
 
 #englishComponents {
+	display: none;
+}
+
+#historyComponents {
+	display: none;
+}
+
+#scienceComponents {
 	display: none;
 }

@@ -1,0 +1,147 @@
+.intro_science {
+	background-image: linear-gradient(
+			rgba(255, 255, 255, 0.1),
+			rgba(255, 255, 255, 0.1)
+		),
+		url('https://i.imgur.com/yIFjsrh.jpg');
+	background-size: contain;
+	padding: 15px;
+}
+.Space_Q1_div {
+	text-align: center;
+	white-space: nowrap;
+	background-image: linear-gradient(
+			rgba(255, 255, 255, 0.1),
+			rgba(255, 255, 255, 0.1)
+		),
+		url('https://i.imgur.com/JirNmoU.jpg');
+	background-size: auto 100%;
+	padding: 15px;
+}
+.science_header {
+	text-align: center;
+	display: block;
+	font-size: 400%;
+	margin: 0;
+	font-family: 'Zen Dots', cursive;
+	text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0, 0, 0, 0.7),
+		-2px 0px 2px #fff;
+}
+.s_introPara {
+	display: inline;
+	text-align: center;
+	background-color: rgba(31, 28, 192, 0.3);
+	font-size: 170%;
+	margin: 0;
+	font-family: 'Mochiy Pop One', sans-serif;
+	color: white;
+	text-shadow: 2px 2px 0px rgb(79, 41, 185), 7px 4px 0px rgba(0, 0, 0, 0.9);
+}
+.galaxy_img {
+	height: 200px;
+	width: auto;
+	padding-right: 20px;
+}
+.galaxy_intro {
+	clear: both;
+	display: block;
+	font-size: 200%;
+	padding: 20px;
+	text-align: center;
+	margin: 0;
+	font-family: 'Mochiy Pop One', sans-serif;
+	color: white;
+	text-shadow: 2px 2px 0px rgb(79, 41, 185), 7px 4px 0px rgba(0, 0, 0, 0.9);
+	background-color: rgba(31, 28, 192, 0.3);
+}
+.space_gif {
+	height: 400px;
+	width: auto;
+	display: block;
+	margin: 0 auto;
+	border-radius: 10px;
+}
+.sun_intro {
+	display: block;
+	font-size: 200%;
+	padding: 20px;
+	text-align: center;
+	margin: 0;
+	font-family: 'Mochiy Pop One', sans-serif;
+	color: white;
+	text-shadow: 2px 2px 0px rgb(79, 41, 185), 7px 4px 0px rgba(0, 0, 0, 0.9);
+	background-color: rgba(31, 28, 192, 0.3);
+}
+.SS_img {
+	height: 400px;
+	width: auto;
+	display: block;
+	margin: 0 auto;
+	border-radius: 10px;
+}
+.SQ1_header {
+	font-size: 350%;
+	font-family: 'Girassol', cursive;
+	margin: 0%;
+	text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0, 0, 0, 0.7),
+		-2px 0px 2px #fff;
+}
+.Q1_planets_img {
+	height: 400px;
+	width: auto;
+	display: block;
+	margin: 0 auto;
+	border-radius: 10px;
+}
+.Q1_space_question {
+	font-size: 230%;
+	font-family: 'Gluten', cursive;
+	margin: 0;
+	text-shadow: 2px 2px 0px rgb(221, 164, 90), 7px 4px 0px rgba(0, 0, 0, 0.7);
+	color: white;
+}
+.choices_Q1_space {
+	display: inline-block;
+	font-size: 200%;
+	font-family: 'Gluten', cursive;
+	margin: 0;
+	text-shadow: 2px 2px 0px rgb(221, 164, 90), 6px 3px 0px rgba(0, 0, 0, 0.7);
+	color: white;
+}
+.Q1S_choice {
+	height: 180px;
+	width: auto;
+}
+.correct {
+	font-size: 200%;
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+	color: lightgreen;
+	text-shadow: rgb(0, 68, 0) 1px 1px, rgb(0, 68, 0) -0px 0px,
+		rgb(0, 68, 0) -1px 1px, rgb(0, 68, 0) -2px 2px, rgb(0, 68, 0) -3px 3px,
+		rgb(0, 68, 0) -4px 4px;
+	visibility: visible;
+}
+.incorrect {
+	font-size: 200%;
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+	color: lightpink;
+	text-shadow: rgb(80, 0, 0) 1px 1px, rgb(80, 0, 0) -0px 0px,
+		rgb(80, 0, 0) -1px 1px, rgb(80, 0, 0) -2px 2px, rgb(80, 0, 0) -3px 3px,
+		rgb(80, 0, 0) -4px 4px;
+	visibility: visible;
+}
+.button {
+	background-color: #4caf50;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	margin: 0 auto;
+	font-size: 16px;
+}

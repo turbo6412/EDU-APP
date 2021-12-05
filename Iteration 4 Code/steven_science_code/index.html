@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <script defer src="./js/main.js"></script>
+</head>
+<body>
+    <article class="steven-science">
+        <section class="volcano_q">
+            <h1>Learn About The 4 Main Types of Volcanos!</h1>
+            <img id="img1" alt="voclanos_diagram" src="https://www.worldatlas.com/r/w1200/upload/ec/ab/97/shutterstock-1330227170.png">
+            <div class="vol_q_1">
+                <p id="selected_text">Choose a Type Of Volcano</p>
+                <select id="drop_down_planets" onchange="show_volcano()">
+                    <option value="none">None</option>
+                    <option value="cinder_cone">Cinder Cone</option>
+                    <option value="lava_dome">Lava Dome</option>
+                    <option value="shield">Shield Volcano</option>
+                    <option value="composite">Composite Volcano</option>
+                </select>
+                <br><img id="img2" alt="volcano_ouput" src="https://ultimate-survival-training.com/wp-content/uploads/2018/01/italy-sicily-stromboli-volcano-eruption.jpg">
+            </div>
+            <div class="vol_q_2">
+                <h2>What is the largest type of Volcano?</h2>
+                <img id="img3" alt="volcano_q_img" src="https://i.pinimg.com/originals/d2/ab/20/d2ab209f41937611280ae0c9f1b83841.jpg">
+                <p id="vol_2_text">Pick a type of Volcano</p>
+                <div class="button_list" id="btn_list_1">
+                    <input type="button" id="cc_but" value="Cinder Cone" onclick="volcano_check('cc')">
+                    <br><input type="button" id="ld_but" value="Lava Dome" onclick="volcano_check('ld')">
+                    <br><input type="button" id="s_but" value="Shield Volcano" onclick="volcano_check('s')">
+                    <br><input type="button" id="c_but" value="Composite Volcano" onclick="volcano_check('c')">
+                </div>
+            </div>
+            <div class="vol_q_3">
+                <h2>What is the most dangerous type of Volcano?</h2>
+                <img id="img3" alt="volcano_q_img2" src="https://images.theconversation.com/files/362457/original/file-20201008-22-5bqu3h.jpg">
+                <p id="vol_3_text">Pick a Type of Volcano</p>
+                <div class="button_list" id="btn_list_2">
+                    <input type="button" id="cc_but2" value="Cinder Cone" onclick="volcano_check2('cc')">
+                    <br><input type="button" id="ld_but2" value="Lava Dome" onclick="volcano_check2('ld')">
+                    <br><input type="button" id="s_but2" value="Shield Volcano" onclick="volcano_check2('s')">
+                    <br><input type="button" id="c_but2" value="Composite Volcano" onclick="volcano_check2('c')">
+                </div>
+            </div>
+            <div class="vol_q_4">
+                <h2>Make your own Volcano!</h2>
+                <h1>Use Soda and Mentos to create your own volcano eruption!</h1>
+                <img id="img4" alt="volcano_q_img3" src="https://i.imgur.com/g65DdxS.png">
+            </div>
+        </section>
+    </article>
+</body>
+</html>

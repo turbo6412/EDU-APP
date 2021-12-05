@@ -1,0 +1,240 @@
+.History-Youssef {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	background-color: rgb(255, 238, 145);
+}
+
+.Head-Title {
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: 2000;
+	font-size: 50px;
+	background-color: rgb(255, 238, 145);
+	bottom: 80%;
+	margin-top: 55px;
+	margin-left: 30px;
+	text-align: center;
+}
+
+.book {
+	float: justify;
+	position: absolute;
+	margin-left: 25px;
+	margin-bottom: 55px;
+	width: 70px;
+	height: 70px;
+}
+
+.FirstDirections {
+	font-family: 'Times New Roman', Times, serif;
+	background-color: rgb(255, 238, 145);
+	font-style: oblique;
+	font-weight: 600;
+	margin-left: 10px;
+}
+
+.Pic-Choice {
+	background-color: rgb(255, 238, 145);
+}
+
+.Pic-Question1 {
+	margin-left: 20px;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.Pic-Question2 {
+	margin-left: 20px;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.Sound-Question {
+	background-color: rgb(255, 238, 145);
+}
+
+.Sound-Question1 {
+	margin-left: 20px;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.Sound-Question2 {
+	margin-left: 20px;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.George {
+	width: 200px;
+	height: 200px;
+	transition: transform 0.2s;
+}
+
+.George:hover {
+	transform: scale(1.2);
+}
+
+.Abe {
+	width: 200px;
+	height: 200px;
+	transition: transform 0.2s;
+}
+
+.Abe:hover {
+	transform: scale(1.2);
+}
+
+.Ben {
+	width: 200px;
+	height: 200px;
+	transition: transform 0.2s;
+}
+
+.Ben:hover {
+	transform: scale(1.2);
+}
+
+.Samurai {
+	width: 200px;
+	height: 200px;
+	transition: transform 0.2s;
+}
+
+.Samurai:hover {
+	transform: scale(1.2);
+}
+
+.Pirates {
+	width: 200px;
+	height: 200px;
+	transition: transform 0.2s;
+}
+
+.Pirates:hover {
+	transform: scale(1.2);
+}
+
+.Egyptians {
+	width: 200px;
+	height: 200px;
+	transition: transform 0.2s;
+}
+
+.Egyptians:hover {
+	transform: scale(1.2);
+}
+
+.Piano {
+	transition: transform 0.2s;
+	width: 300px;
+	height: 300px;
+	float: left;
+	margin-top: 25px;
+}
+
+.Piano:hover {
+	transform: scale(1.2);
+}
+
+.RadioButton_Q3_1 {
+	float: left;
+}
+
+.RadioButton_Q3_2 {
+	margin-left: 170px;
+	position: absolute;
+}
+
+.RadioButton_Q3_3 {
+	margin-left: 180px;
+	position: absolute;
+}
+
+.RadioButton_Q4_1 {
+	float: left;
+}
+
+.RadioButton_Q4_2 {
+	margin-left: 170px;
+	position: absolute;
+}
+
+.RadioButton_Q4_3 {
+	margin-left: 180px;
+	position: absolute;
+}
+
+.Flute {
+	transition: transform 0.2s;
+	width: 300px;
+	height: 300px;
+	margin-top: 30px;
+	margin-left: 150px;
+}
+
+.Flute:hover {
+	transform: scale(1.2);
+}
+
+.Trumpet {
+	transition: transform 0.2s;
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	margin-left: 150px;
+	margin-top: 25px;
+}
+
+.Trumpet:hover {
+	transform: scale(1.2);
+}
+
+.Wheel {
+	transition: transform 0.2s;
+	width: 300px;
+	height: 300px;
+	margin-top: 30px;
+}
+
+.Wheel:hover {
+	transform: scale(1.2);
+}
+
+.Bulb {
+	transition: transform 0.2s;
+	width: 250px;
+	height: 250px;
+	margin-bottom: 50px;
+	margin-left: 150px;
+}
+
+.Bulb:hover {
+	transform: scale(1.2);
+}
+
+.Plane {
+	transition: transform 0.2s;
+	position: absolute;
+	width: 250px;
+	height: 250px;
+	margin-left: 150px;
+	margin-top: 40px;
+}
+
+.Plane:hover {
+	transform: scale(1.2);
+}
+
+.text-center {
+	text-align: justify;
+}
+
+.FirstSectionSubmit {
+	border-color: black;
+	border-radius: 15px;
+	background-color: lightskyblue;
+}
+
+.SecondSection_Submit {
+	border-color: black;
+	border-radius: 15px;
+	background-color: lightskyblue;
+	position: left;
+	margin-top: 70px;
+}

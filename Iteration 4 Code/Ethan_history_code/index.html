@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required Meta Tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="css/main.css">
+    <title>EduApp</title>
+
+    <!-- Required JS Files-->
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+
+<div class="History-Ethan">
+    <div class="Section-Title">
+        History Section
+    </div>
+    <div class="directions"> Follow the map and click on different continents to learn more!</div>
+    <div class="map" style="position: relative;">
+        <img class="center" src="https://media.istockphoto.com/vectors/world-map-vector-id1220187238?k=20&m=1220187238&s=612x612&w=0&h=9Ew8z1UmJJoeuivDl7qKgPzw8NrMd7os4SmsA5YQm34=" alt="map" style="width: 85%; height: 85%;">
+        <div class="popup" onclick="popupFunction('1')" style="top: 40%; right: 32%;"> Asia
+            <span class="popuptext" id="myPopup1"> 
+                <p>-China's longest dynasty was the Zhou Dynasty, lasting 1122-255 BC, about 867 years!</p>
+                <p>-Two of the most popular beliefs, Hinduism and Buddhism, originated in India!</p>
+                <p>-Between 1639 to 1853, Japan closed themselves off from the world, about 214 years!</p>
+            </span>
+        </div>
+        <div class="popup" onclick="popupFunction('2')" style="top: 42%; right: 69%;"> North America
+            <span class="popuptext" id="myPopup2">
+                <p>-America gained their independence on July 4th, 1776!</p>
+                <p>-Mexico is home to Chichen Itza, one of the seven wonders of the modern world!</p>
+                <p>-English and French are the two official languages of Canada!</p>
+            </span>
+        </div>
+        <div class="popup" onclick="popupFunction('3')" style="top: 63%; right: 60%;"> South America
+            <span class="popuptext" id="myPopup3"> 
+                <p>-Brazil holds one of the seven wonders of the modern wold, Christ the Redeemer!</p>
+                <p>-The ancient city, Machu Picchu, is found in Peru, another one of the seven wonders of the modern world!</p>
+                <p>-There are four South American countries that don't consider Spanish as their first language: Brazil, Guyana, Suriname, and French Guiana!</p>
+            </span>
+        </div>
+        <div class="popup" onclick="popupFunction('4')" style="top: 58%; right: 45%;"> Africa
+            <span class="popuptext" id="myPopup4"> 
+                <p>-Egypt is home to one of the seven wonders of the ancient world, the Great Pyramids of Giza!</p>
+                <p>-Africa is home to the Nile River is the longest river in the world! </p>
+                <p>-Africa has more than 2000 languages!</p>
+            </span>
+        </div>
+        <div class="popup" onclick="popupFunction('5')" style="top: 40%; right: 48%;"> Europe
+            <span class="popuptext" id="myPopup5">
+                <p>-Queen Elizabeth II began her rule in 1952</p>
+                <p>-France is known for having the Eiffel Tower in January 28, 1887!</p>
+                <p>-It is believed Europe is named after the Greek mythology princess, Europa!</p>
+            </span>
+        </div>
+        <div class="popup" onclick="popupFunction('6')" style="top: 70%; right: 22%;"> Australia
+            <span class="popuptext" id="myPopup6"> 
+                <p>-Australia was first discovered by the Dutch in 1606 </p>
+                <p>-Australia holds the oldest continental crust on Earth!</p>
+                <p>-Australia is also home to a lot of exotic animals and species!</p>
+            </span>
+        </div>
+    </div>
+    <div class="directions"> Using the map, answer the following questions!</div>
+    <form name="WordMultChoice" class="WordMultChoice" id="WordMultChoice">
+        <div class="Question">
+            <p>1. Which country holds one of the seven wonders of the ANCIENT world?</p>
+            <p><input type="radio" name="question1" value="Egypt">Egypt</p>
+            <p><input type="radio" name="question1" value="United States of America">United States of America</p>
+            <p><input type="radio" name="question1" value="Canada">Canada</p>
+            <input type="button" class="Submission" name="" value="Submit" onclick="checkQuestionMC('question1')">
+        </div>
+        <div class="Question">
+            <p>2. Which religion did NOT originate from India?</p>
+            <p><input type="radio" name="question2" value="Hinduism">Hinduism</p>
+            <p><input type="radio" name="question2" value="Catholicism">Catholicism</p>
+            <p><input type="radio" name="question2" value="Buddhism">Buddhism</p>
+            <input type="button" class="Submission" name="" value="Submit" onclick="checkQuestionMC('question2')">
+        </div>
+        <div class="Question">
+            <p>3. The Nile River is the longest river in the world!</p>
+            <p><input type="radio" name="question3" value="True">True</p>
+            <p><input type="radio" name="question3" value="False">False</p>
+            <input type="button" class="Submission" name="" value="Submit" onclick="checkQuestionMC('question3')">
+        </div>
+        <div class="Question">
+            <p>4. Which of the following South American countries has Spanish as their official language?</p>
+            <p><input type="radio" name="question4" value="Brazil">Brazil</p>
+            <p><input type="radio" name="question4" value="Guyana">Guyana</p>
+            <p><input type="radio" name="question4" value="Suriname">Suriname</p>
+            <p><input type="radio" name="question4" value="Colombia">Colombia</p>
+            <input type="button" class="Submission" name="" value="Submit" onclick="checkQuestionMC('question4')">
+        </div>
+        <div class="Question">
+            <p>5. It is said that Europe is named after _______ the Greek Mythological Princess!</p>
+            <p><input type="radio" name="question5" value="Euro">Euro</p>
+            <p><input type="radio" name="question5" value="Europa">Europa</p>
+            <p><input type="radio" name="question5" value="Eureka">Eureka</p>
+            <p><input type="radio" name="question5" value="Eros">Eros</p>
+            <input type="button" class="Submission" name="" value="Submit" onclick="checkQuestionMC('question5')">
+        </div>
+        <div class="Question">
+            <p>6. When did Queen Elizabeth II begin her reign?</p>
+            <p><input type="radio" name="question6" value="Euro">1887</p>
+            <p><input type="radio" name="question6" value="1606">1606</p>
+            <p><input type="radio" name="question6" value="1776">1776</p>
+            <p><input type="radio" name="question6" value="1952">1952</p>
+            <input type="button" class="Submission" name="" value="Submit" onclick="checkQuestionMC('question6')">
+        </div>
+        <div class="Question">
+            <p>7. How many years was China's longest dynasty?</p>
+            <p><input type="radio" name="question7" value="867">867</p>
+            <p><input type="radio" name="question7" value="133">133</p>
+            <p><input type="radio" name="question7" value="367">367</p>
+            <input type="button" class="Submission" name="" value="Submit" onclick="checkQuestionMC('question7')">
+        </div>
+        <div class="Question">
+            <p>8. Africa has over 2000 languages!</p>
+            <p><input type="radio" name="question8" value="True">True</p>
+            <p><input type="radio" name="question8" value="False">False</p>
+            <input type="button" class="Submission" name="" value="Submit" onclick="checkQuestionMC('question8')">
+        </div>
+    </form>
+</div>
+
+</html>

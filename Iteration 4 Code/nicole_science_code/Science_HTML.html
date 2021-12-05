@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="Science_CSS.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Girassol&family=Gluten:wght@300&family=Goldman&family=Grenze+Gotisch&family=Hachi+Maru+Pop&family=Lacquer&family=Mochiy+Pop+One&family=Sansita+Swashed:wght@300&family=Syne+Mono&family=Train+One&family=Zen+Dots&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="intro_science">
+        <h1 class="science_header"> Introduction to the Universe! </h1>
+        <br><br>
+        <img src="https://i.imgur.com/mUk8luW.png" style="float: right; height: 200px; width: auto; display: inline;padding-left: 20px;">
+        <p class="s_introPara"> <img class="galaxy_img" src="https://i.imgur.com/eLoZuDz.png" align="left">
+        Welcome to our science section! In this page of the science section, we are learning about outer
+        space! We will be covering our solar system in the section below. The universe outside our little planet, is massive
+        and infinitely growing. Get ready to learn things that are out of this world!</p>
+        <br><br><br>
+        <p class="galaxy_intro"> When you look up at the night sky, do you ever wonder what you are seeing? 
+        It's the Milky Way! Our home planet Earth, is located in the galaxy known as the Milky Way. A galaxy is a huge 
+        collection of gas, dust, and billions of stars and their solar systems, all held together by gravity. All the stars
+        in the sky you see, are the other stars in the Milky Way. 
+        Pretty massive right? But there is much more to the universe than the Milky Way. Some scientists think there could be
+        as many as one hundred billion galaxies in the universe. </p>
+        <img class="space_gif" src="https://scitechdaily.com/images/Dark-Outer-Space-Animation.gif">
+        <p class="sun_intro"> Earth orbits the Sun, which is at the center of our Solar System. Our solar system consists of 
+        our star, the Sun, and everything bound to it by gravity – the planets Mercury, Venus, Earth, Mars, Jupiter, Saturn, 
+        Uranus, and Neptune; dwarf planets such as Pluto; dozens of moons; and millions of asteroids, comets, and meteoroids. </p>
+        <img class="SS_img" src="https://i.imgur.com/LNej88u.jpg">
+    </div>
+    <div class="Space_Q1_div">
+        <h1 class="SQ1_header"> The Solar System </h1>
+        <img class="Q1_planets_img" src="https://i.imgur.com/BkD91Sz.jpg">
+        <p class="Q1_space_question"> What is at the center of our Solar System? </p>
+        <form class="choices_Q1_space">
+            <input type="radio" id="Q1A_space" name="Q1Choice_s"> Earth
+                <img class="Q1S_choice" src="https://i.imgur.com/9Te0qcy.png">  
+            <input type="radio" id="Q1B_space" name="Q1Choice_s"> Sun
+                <img class="Q1S_choice" src="https://i.imgur.com/BFri7xY.png"> 
+            <input type="radio" id="Q1C_space" name="Q1Choice_s"> Saturn
+                <img class="Q1S_choice" src="https://i.imgur.com/wQWafnA.png">
+            <input type="radio" id ="Q1D_space" name="Q1Choice_s"> Moon 
+                <img class="Q1S_choice" src="https://i.imgur.com/9HoNmXg.png">
+        </form>
+        <br> <br>
+        <button class = "button" onclick="checkButton1()">Submit </button> 
+        <h3 class="correct" id="Q1_Correct">  <br> </h3>
+        <h3 class="incorrect" id="Q1_Incorrect">  </h3> 
+        <br><br>
+        <p class="Q1_space_question"> Which planet is closest to the Sun? </p>
+        <form class="choices_Q1_space">
+            <input type="radio" id="Q2A_space" name="Q2Choice_s"> Pluto
+                <img class="Q1S_choice" src="https://i.imgur.com/z8XqLnj.png">  
+            <input type="radio" id="Q2B_space" name="Q2Choice_s"> Moon
+                <img class="Q1S_choice" src="https://i.imgur.com/9HoNmXg.png"> 
+            <input type="radio" id="Q2C_space" name="Q2Choice_s"> Earth
+                <img class="Q1S_choice" src="https://i.imgur.com/9Te0qcy.png"> 
+            <input type="radio" id ="Q2D_space" name="Q2Choice_s"> Mercury
+                <img class="Q1S_choice" src="https://i.imgur.com/X50mUTv.png">
+        </form>
+        <br> <br>
+        <button class = "button" onclick="checkButton2()">Submit </button> 
+        <h3 class="correct" id="Q2_Correct">  <br> </h3>
+        <h3 class="incorrect" id="Q2_Incorrect">  </h3> 
+
+    </div>
+    <script src="./Space_JS.js"></script>
+</body>
+</html>
